@@ -1,0 +1,75 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "Toplama Hub izi",
+     Style = 3,
+     SizeX = 400,
+     SizeY = 255,
+     Theme = "Aqua"
+})
+
+local Page = UI.New({
+    Title = "Scripts",
+
+
+})
+
+Page.Button({
+    Text = "Pet Sim X - Auto Farm",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Wind596/RaitoHub.c-/main/RaitoHub", true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Pet Sim X - Egg",
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/naypramx/Simulator/Script/petsimx'))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Counter Blox - Hexagon",
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/CounterBlox.lua', true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Counter Blox - Skin Changer",
+    Callback = function()
+       loadstring(game:HttpGet('https://github.com/Krouhara/cbroskinchangercopy', true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Ro Ghoul - Auto Farm",
+    Callback = function()
+       loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Dark Hub - 20+ oyun",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+
+
+
+    end
+})
