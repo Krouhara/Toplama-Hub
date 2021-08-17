@@ -3,9 +3,9 @@ local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinl
 local UI = Material.Load({
      Title = "Toplama Hub izi",
      Style = 3,
-     SizeX = 350,
+     SizeX = 320,
      SizeY = 255,
-     Theme = "Mocha"
+     Theme = "Aqua"
 })
 
 local Page = UI.New({
