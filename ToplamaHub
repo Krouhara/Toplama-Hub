@@ -1,7 +1,7 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
-     Title = "Toplama Hub izi",
+     Title = "Krouhara'nin Scriptleri",
      Style = 3,
      SizeX = 360,
      SizeY = 255,
