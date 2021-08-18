@@ -1,11 +1,11 @@
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Krouhara/Menu/main/Menu"))()
 
 local UI = Material.Load({
      Title = "Toplama Hub izi",
      Style = 3,
      SizeX = 360,
      SizeY = 255,
-     Theme = "Aqua"
+     Theme = "Pinky"
 })
 
 local Page = UI.New({
