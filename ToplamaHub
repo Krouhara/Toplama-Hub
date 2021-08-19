@@ -15,16 +15,6 @@ local Page = UI.New({
 })
 
 Page.Button({
-    Text = "Pet Sim X - Auto Farm",
-    Callback = function()
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/Wind596/RaitoHub.c-/main/RaitoHub", true))()
-
-
-
-    end
-})
-
-Page.Button({
     Text = "Pet Sim X - Egg",
     Callback = function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/naypramx/Simulator/Script/petsimx'))()
