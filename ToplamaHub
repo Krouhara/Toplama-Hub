@@ -1,0 +1,55 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "Krouhara'nin Scriptleri",
+     Style = 3,
+     SizeX = 360,
+     SizeY = 255,
+     Theme = "Jester"
+})
+
+local Page = UI.New({
+    Title = "Scripts",
+
+
+})
+
+Page.Button({
+    Text = "Counter Blox - Hexagon",
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/CounterBlox.lua', true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Counter Blox - Skin Changer",
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/Krouhara/Scripts-Saves/main/CBROskinchanger', true))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Ro Ghoul - Auto Farm",
+    Callback = function()
+       loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+
+
+
+    end
+})
+
+Page.Button({
+    Text = "Dark Hub - 20+ oyun",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+
+
+
+    end
+})
